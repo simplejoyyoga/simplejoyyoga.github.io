@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: exclude
+date: 2014-07-15
+pay-button: exclude
+img: pc.png
+alt: Chair Yoga Promotional Flyer
+project-date: Fall 2024
+client: Start Bootstrap
+category: Web Development
+description: n/a
+---

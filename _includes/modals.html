@@ -1,4 +1,16 @@
 <!-- Portfolio Modals -->
+ <head>
+  <script src="https://www.paypal.com/sdk/js?client-id=BAA_D-AUhg6-6sUQO9YyzFWCOsnUo_gXYBgk3uO3rN61_yoPHNuH05Zj2UCTHG2yz7R8Ww_YsqDbGcbyyY&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+  <script>
+
+    paypal.HostedButtons({
+  
+      hostedButtonId: "EX35X8WFYM4ZA",
+  
+    }).render("#paypal-container-EX35X8WFYM4ZA")
+  
+  </script> 
+</head>
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
@@ -19,6 +31,10 @@
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %}
+            {% if post.pay-button != "exclude" %}
+            <p>{{post.pay-button}}</p>
+            {% endif %}
+
             <!-- <ul class="list-inline item-details">
               {% if post.client %}
               <li>Client:
@@ -36,13 +52,6 @@
               </li>
               {% endif %}
             </ul> -->
-            <script src="https://www.paypal.com/sdk/js?client-id=BAA_D-AUhg6-6sUQO9YyzFWCOsnUo_gXYBgk3uO3rN61_yoPHNuH05Zj2UCTHG2yz7R8Ww_YsqDbGcbyyY&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
-<div id="paypal-container-EX35X8WFYM4ZA"></div>
-<script>
-  paypal.HostedButtons({
-    hostedButtonId: "EX35X8WFYM4ZA",
-  }).render("#paypal-container-EX35X8WFYM4ZA")
-</script>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
               Close</button>
           </div>
