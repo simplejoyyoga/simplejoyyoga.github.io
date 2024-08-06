@@ -41,9 +41,9 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: facebook
-    url: Facebook.com/SimpleJoyYoga
-  - title: google
-    url: mail-to:simplejoyyoga@gmail.com
+    url: https://Facebook.com/SimpleJoyYoga
+  # - title: google
+  #   url: mail-to:simplejoyyoga@gmail.com
 
 # Postal address (add as many lines as necessary)
 # address:

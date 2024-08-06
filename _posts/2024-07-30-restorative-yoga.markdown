@@ -1,8 +1,9 @@
 ---
+order: 0
 layout: default
 modal-id: 1
 pay-button: <div id="paypal-container-EX35X8WFYM4ZA"></div>
-date: 2014-07-15
+date: 2014-07-16
 img: restorative.png
 alt: Restorative Yoga Promotional Flyer
 project-date: Fall 2024
