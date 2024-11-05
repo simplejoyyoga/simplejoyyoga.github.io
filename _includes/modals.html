@@ -1,6 +1,8 @@
 <!-- Portfolio Modals -->
  <head>
   <script src="https://www.paypal.com/sdk/js?client-id=BAA_D-AUhg6-6sUQO9YyzFWCOsnUo_gXYBgk3uO3rN61_yoPHNuH05Zj2UCTHG2yz7R8Ww_YsqDbGcbyyY&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=BAA_D-AUhg6-6sUQO9YyzFWCOsnUo_gXYBgk3uO3rN61_yoPHNuH05Zj2UCTHG2yz7R8Ww_YsqDbGcbyyY&components=hosted-buttons&enable-funding=venmo&currency=USD"></script>
+
   <script>
 
     paypal.HostedButtons({
@@ -10,6 +12,15 @@
     }).render("#paypal-container-EX35X8WFYM4ZA")
   
   </script> 
+  <script>
+
+    paypal.HostedButtons({
+  
+      hostedButtonId: "QYV4FU8JWPYS4",
+  
+    }).render("#paypal-container-QYV4FU8JWPYS4")
+  
+  </script>
 </head>
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog"
