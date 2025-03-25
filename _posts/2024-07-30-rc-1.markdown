@@ -3,7 +3,7 @@ order: 2
 layout: default
 modal-id: exclude
 date: 2014-07-15
-img: upcycle.png
+img: private.png
 pay-button: exclude
 alt: Yoga Promotional Flyer
 project-date: Fall 2024
